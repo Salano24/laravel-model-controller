@@ -1,1 +1,17 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contents{
+    background-image: url(../img/pattern.png);
+    font-family: 'Mountains of Christmas', cursive;
+    h1{
+        padding: 0.75rem 1.5rem;
+        background-color: rgba(0, 0, 0, 0.274);
+        display: inline-block;
+    }
+}
